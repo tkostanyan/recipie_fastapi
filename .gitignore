@@ -91,7 +91,6 @@ poetry.lock
 
 # Docker specific files
 *.dockerignore
-Dockerfile
 
 # Uvicorn specific
 *.pid
