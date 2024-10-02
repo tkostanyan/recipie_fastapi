@@ -1,0 +1,113 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# FastAPI specific
+*.log
+*.pid
+*.env
+instance/
+*.db
+*.sqlite3
+
+# Pydantic settings cache
+.settings_cache/
+
+# dotenv environment variables
+.env
+.env.*
+
+# VS Code specific settings
+.vscode/
+
+# PyCharm specific settings
+.idea/
+*.iml
+
+# Pytest cache and coverage
+.cache/
+.coverage
+.coverage.*
+htmlcov/
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.tox/
+nosetests.xml
+coverage.xml
+*.log
+
+# Jupyter Notebook specific
+.ipynb_checkpoints/
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Bandit specific
+.bandit
+
+# Test/benchmark artifacts
+*.log
+*.out
+*.pid
+*.prof
+*.dmp
+*.stackdump
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python egg and build artifacts
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+wheels/
+*.manifest
+*.spec
+
+# Pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+.cache/pypoetry/
+
+# Docker specific files
+*.dockerignore
+Dockerfile
+
+# Uvicorn specific
+*.pid
+
+# Local .env files
+.env
+.env.*
+
+# Pyre (Python static type checker)
+.pyre/
+
+# IDE specific settings
+.idea/
+*.sublime-project
+*.sublime-workspace
+.vscode/
+
+# Coverage directory used by tools like coverage.py
+htmlcov/
